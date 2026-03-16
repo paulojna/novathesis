@@ -1740,7 +1740,7 @@
   % #3 = cover element code
   \ifblank{#3}{}{%
     \options{/@ntcoveropts, defaults, #2, alignmap=\option{/@ntcoveropts/halign}}%
-    % \typeout{@ntcoverelement@iii 1=[#1] 2=[#2] tikz=\option{/@ntcoveropts/tikz}}\@NTCOVERELEMENT@III
+    %\typeout{@ntcoverelement@iii 1=[#1] 2=[#2] tikz=\option{/@ntcoveropts/tikz}}\@NTCOVERELEMENT@III
     \defifundef{\ifmatchstatus}{\newif}%
     \defifundef{\ifmatchdegree}{\newif}%
     \matchstatustrue%
@@ -2466,7 +2466,7 @@
   \begingroup
   \pagestyle{novathesis@frontmatter}%
   \copypagestyle{chapter}{novathesis@frontmatter}
-  % \ntselectlang{\@LANG@MAIN}%
+  %\ntselectlang{\@LANG@MAIN}%
   \pagenumbering{roman}%
   \NTRunHook{frontmatter/post}%
 }
